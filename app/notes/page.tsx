@@ -1,5 +1,5 @@
 import NotesPage from "./Notes.client";
-import { fetchNotes } from "../../lib/noteService";
+import { fetchNotes } from "../../lib/api";
 import {
   dehydrate,
   HydrationBoundary,

@@ -6,7 +6,7 @@ import Pagination from "../../components/Pagination/Pagination";
 import SearchBox from "../../components/SearchBox/SearchBox";
 import css from "./NotesPage.module.css";
 import type { Note } from "../../types/note";
-import { fetchNotes } from "../../lib/noteService";
+import { fetchNotes } from "../../lib/api";
 import Modal from "../../components/Modal/Modal";
 import NoteForm from "../../components/NoteForm/NoteForm";
 import { useDebouncedCallback } from "use-debounce";
